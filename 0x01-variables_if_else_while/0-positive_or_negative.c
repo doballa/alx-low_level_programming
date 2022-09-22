@@ -1,8 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
+
+/**
+ * main - Entry point
+ *
+ * Description: 'Print Random Numbers'
+ *
+ * Return: Always 0 (Sucsess)
+ */
 
 int main(void)
 {
@@ -18,7 +24,7 @@ int main(void)
 		printf("%d is positive\n", n);
 	} else
 	{
-		printf("0 is zero");
+		printf("0 is zero ");
 	}
 	return (0);
 }
